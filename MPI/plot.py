@@ -6,7 +6,7 @@ import matplotlib.cm as cm
 import matplotlib as mpl
 mpl.rcParams['mathtext.fontset'] = 'cm'
 
-x,y,z,d=np.genfromtxt('data_hist.dat',skip_header=1).T
+x,y,z,d=np.genfromtxt('histogram.dat',skip_header=1).T
 
 fig=plt.figure(figsize=(10,10))
 ax=fig.add_subplot(111, projection='3d')
